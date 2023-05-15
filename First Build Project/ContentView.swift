@@ -11,7 +11,7 @@ import ParseSwift
 
 struct GameScore: ParseObject, Identifiable {
     init() {
-        score = 1
+        score = 0
     }
     
     var id: String?
